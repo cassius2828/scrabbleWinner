@@ -1,7 +1,7 @@
 const scrabbleWinner = (s1, s2) => {
   let count1 = 0;
   let count2 = 0;
-  const regex = /\W|_/gi;
+  const regex = /\W|_/g;
 
   // array with letter to number values
   const POINTS = [
